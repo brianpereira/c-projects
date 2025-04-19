@@ -7,9 +7,11 @@ int main()
   int y = 20;
   int sum = add(x, y); // Call the 'add' function to calculate the sum.
   int diff = subtract(x, y); // Call the 'subtract' function to calculate the difference.
-
+  int prod = multiply(x,y); 
+  
   printf("The sum of %d and %d is: %d\n", x, y, sum);
   printf("%d minus %d equals: %d\n", x, y, diff);
+  printf("%d times %d equals: %d\n", x,y, prod);
   return 0;
 }
 
